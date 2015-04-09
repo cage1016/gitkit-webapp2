@@ -1,0 +1,29 @@
+*~
+*.pyc
+bower_components
+node_modules
+.idea
+.DS_Store
+*.p12
+*.pem
+.tmp
+public
+public_admin
+
+#library
+oauth2client
+httplib2
+apiclient
+uritemplate
+cloudstorage
+sendgrid
+smtpapi
+
+#library source
+*.zip
+
+#soucres
+sources
+
+#pip install folder
+lib
