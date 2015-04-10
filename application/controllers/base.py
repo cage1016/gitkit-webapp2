@@ -19,6 +19,7 @@ class BaseRequestHandler(webapp2.RequestHandler):
     # Preset values for the template
     values = {}
 
+    values.update(template_vars)
     # read the template or 404.html
     try:
       self.response.write(self.jinja2.render_template(template_name, **values))
