@@ -7,17 +7,6 @@ node_modules
 *.p12
 *.pem
 .tmp
-public
-public_admin
-
-#library
-oauth2client
-httplib2
-apiclient
-uritemplate
-cloudstorage
-sendgrid
-smtpapi
 
 #library source
 *.zip
