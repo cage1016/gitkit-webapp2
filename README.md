@@ -82,7 +82,7 @@ Enable **Identity Toolkit API** and setup
 	  "clientId" : "<your-client-id>",
 	  "serviceAccountEmail" : "<your-service-account-email>",
 	  "serviceAccountPrivateKeyFile" : "INSERT/PATH/TO/PRIVATEKEY",
-	  "widgetUrl" : "http://localhost:8080/gitkit",
+	  "widgetUrl" : "http://localhost:8080/widget",
 	  "cookieName" : "gtoken"
 	}
 	```
