@@ -1,2 +1,2 @@
 identity-toolkit-python-client==0.1.5
-pycrypto
+pycrypto==2.6

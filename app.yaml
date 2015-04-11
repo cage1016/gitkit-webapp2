@@ -1,5 +1,5 @@
-application: gitkit-demo
-version: 1
+application: gae-lab-001
+version: gitkit
 runtime: python27
 api_version: 1
 threadsafe: yes
@@ -9,8 +9,17 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /account_choooser_branding
+  static_files: templates/account_choooser_branding.html
+  upload: templates/account_choooser_branding.html
+
+- url: /public
+  static_dir: public
+  secure: always
+
 - url: .*
   script: application.app.router
+  secure: always
 
 libraries:
 - name: webapp2

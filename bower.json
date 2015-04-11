@@ -1,0 +1,18 @@
+{
+  "name": "gitkit-demo",
+  "version": "0.0.0",
+  "authors": [
+    "Cage <cage@mitac.com.tw>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "semantic": "~1.8.1"
+  }
+}
