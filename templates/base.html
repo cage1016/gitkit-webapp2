@@ -4,10 +4,27 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="stylesheet" href="/public/css/semantic.min.css">
+  <link rel="stylesheet" href="/public/css/doc.css">
+
   {% block head_scripts %}{% endblock %}
 </head>
 <body>
-{% block content %}{% endblock %}
+
+<div class="container">
+  {% block content %}{% endblock %}
+
+  <div class="github">
+    <div class="ui stacked segment">
+      <p>
+        Source code and usage example:<br/>
+        <a href="https://github.com/cage1016/gitkit-webapp2">https://github.com/cage1016/gitkit-webapp2</a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
 {% block foot_scripts %}{% endblock %}
 </body>
 </html>
