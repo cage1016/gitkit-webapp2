@@ -93,7 +93,7 @@ Enable **Identity Toolkit API** and setup
 
 ####Step 5
 
-modify `templates/widget` as `<your-public-api-key>` your created
+modify `templates/widget.html` as `<your-public-api-key>` your created
 
 ```javascript
 var config = {
