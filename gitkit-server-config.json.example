@@ -2,6 +2,6 @@
   "clientId" : "<your-client-id>",
   "serviceAccountEmail" : "<your-service-account-email>",
   "serviceAccountPrivateKeyFile" : "<your-pem-file>",
-  "widgetUrl" : "http://localhost:8080/gitkit",
+  "widgetUrl" : "http://localhost:8080/widget",
   "cookieName" : "gtoken"
 }
