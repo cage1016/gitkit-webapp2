@@ -11,7 +11,7 @@
       '#navbar', // accepts any CSS selector
       {
         widgetUrl: "/widget",
-        signOutUrl: "/"
+        signOutUrl: "/logout"
       }
   );
 </script>
@@ -22,14 +22,16 @@
 
 {% block content %}
 
+<h2 class="ui center aligned icon header">
+  <i class="circular users icon"></i>
+  Google Identity Toolkit Demo
 
-<!-- Include the sign in button widget with the matching 'navbar' id -->
-<div id="navbar"></div>
-<!-- End identity toolkit widget -->
-
-<div>
-  {{text}}
-</div>
+  <div class="navbar-container">
+    <!-- Include the sign in button widget with the matching 'navbar' id -->
+    <div id="navbar"></div>
+    <!-- End identity toolkit widget -->
+  </div>
+</h2>
 
 
 {% endblock %}
